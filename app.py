@@ -1,6 +1,6 @@
 # Searches for shows using Ajax with JSON
 
-from cs50 import SQL
+from CSF.sql import SQL
 from flask import Flask, jsonify, render_template, request
 
 app = Flask(__name__)
